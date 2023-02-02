@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&family=Fascinate+Inline&family=Luckiest+Guy&family=Permanent+Marker&family=Roboto&family=Rubik+Glitch&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="end" class="flex-center flex-column">
+            <h1 id="finalScore">0</h1>
+            <form class="end-form-container">
+                <h2 id="end-text">Enter your name below to save your score</h2>
+                <input type="text" name="name" id="username" placeholder="Enter your name">
+                <button class="btn-end" id="saveScoreBtn" type="submit" onclick="saveHighScore(e)">Save</button>
+            </form>
+            <a href="game.html" class="btn-end">Play again</a>
+            <a href="index.html" class="btn-end">Go home</a>
+        </div>
+    </div>
+
+    <script src="end.js"></script>
+</body>
+</html>

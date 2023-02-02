@@ -13,10 +13,10 @@ let availableQuestions = []
 let questions = [
     {
         question: 'What is the correct way to write a JavaScript array?',
-        choice1: 'var colors = (1:"red", 2:"green", 3:"blue")',
-        choice2: 'var colors = ["red", "green", "blue"]',
-        choice3: 'var colors = "red", "green", "blue"',
-        choice4: 'var colors = 1 = ("red"), 2 = ("green"), 3 = ("blue")',
+        choice1: 'let colors = (1:"red", 2:"green", 3:"blue")',
+        choice2: 'let colors = ["red", "green", "blue"]',
+        choice3: 'let colors = "red", "green", "blue"',
+        choice4: 'let colors = 1 = ("red"), 2 = ("green"), 3 = ("blue")',
         answer: 2,
     },
     {
@@ -54,7 +54,7 @@ let questions = [
     {
         question: 'How do you write "Hello World" in an alert box?',
         choice1: 'msg("Hello World")',
-        choice2: 'alert("Hello World")>',
+        choice2: 'alert("Hello World")',
         choice3: 'alertBox("Hello World")',
         choice4: 'prompt("Hello World")',
         answer: 2,
@@ -84,7 +84,7 @@ let questions = [
         answer: 4,
     },
     {
-        question: 'Where is the correct place to insert a JavaScript??',
+        question: 'Where is the correct place to insert a JavaScript?',
         choice1: 'The <head> section',
         choice2: 'The <body> section',
         choice3: 'Both the <head> section and the <body> section are correct ',
@@ -107,7 +107,7 @@ getNewQuestion = () => {
     if(availableQuestions.length === 0 || questionCounter > MAX_QUESTIONS) {
      localStorage.setItem('mostRecentScore', score)
 
-     return window.location.assign('/end.html')
+     return window.location.assign('end.html')
     }
 
     questionCounter++
@@ -149,7 +149,7 @@ choices.forEach(choice => {
             selectedChoice.parentElement.classList.remove(classToApply);
             getNewQuestion() 
 
-    }, 1000)
+    }, 500)
     })
 })
 

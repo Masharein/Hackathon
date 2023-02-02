@@ -3,8 +3,7 @@ body {
 }
 
 .container-game {
-    width: 60%;
-    height: 50%;
+display: block;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,13 +12,14 @@ body {
     padding: 2rem;
 }
 
+
 .choice-container {
     display: flex;
     margin-bottom: 0.8rem;
     width: 100%;
     border-radius: 4px;
     background: rgb(18, 93, 255);
-    font-size: 8rem;
+    font-size: 10rem;
     min-width: 10rem;
 }
 
