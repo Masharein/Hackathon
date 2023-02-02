@@ -57,8 +57,12 @@ display: block;
 }
 
 .hud-main-text {
+<<<<<<< HEAD
     text-align: center;
     margin-top: 0;
+=======
+    margin-top: 10px;
+>>>>>>> daeb8394b70211f9ab627b6735fb7e0f2ecae99c
 }
 
 #progressBar {
