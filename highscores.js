@@ -1,7 +1,17 @@
 const highScoresList = document.querySelector('.highScoresList');
-const highScores = JSON.parse(localStorage.getItem('highScores')) || [];
 
-highScoresList.innerHTML = highScores
-  .map(score => `<li class="high-score">${score.name} - ${score.score}</li>`)
-  .join('');
+let highScores;
+try {
+  highScores = JSON.parse(localStorage.getItem('highScores')) || [];
+} catch (err) {
+  console.error(err);
+  highScores = [];
+}
 
+const renderHighScores = scores => {
+  highScoresList.innerHTML = scores
+    .map(score => `<li class="high-score">${score.name} => ${score.score}</li>`)
+    .join('');
+};
+
+renderHighScores(highScores);

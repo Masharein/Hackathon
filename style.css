@@ -133,20 +133,12 @@ h2 {
 
 /* End page style */
 
-<<<<<<< HEAD
-
-=======
->>>>>>> daeb8394b70211f9ab627b6735fb7e0f2ecae99c
 .end-form-container {
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-<<<<<<< HEAD
   max-width: 100rem;
-=======
-  max-width: 30rem;
->>>>>>> daeb8394b70211f9ab627b6735fb7e0f2ecae99c
 }
 
 input {
@@ -155,10 +147,6 @@ input {
   padding: 1.5rem;
   font-size: 1.8rem;
   border: none;
-<<<<<<< HEAD
-=======
-  box-shadow: 0 0.1rem 1.4rem 0 rgba(86, 185, 235, 0.5);
->>>>>>> daeb8394b70211f9ab627b6735fb7e0f2ecae99c
 }
 
 input::placeholder {
@@ -166,7 +154,7 @@ input::placeholder {
 }
 
 #username {
-  margin-bottom: 3rem;
+
   width: 100%;
   outline: none;
 }
@@ -178,29 +166,19 @@ input::placeholder {
 }
 
 #saveScoreBtn {
-<<<<<<< HEAD
   background-color: rgba(252, 247, 247, 0);
-=======
-  border:none;
->>>>>>> daeb8394b70211f9ab627b6735fb7e0f2ecae99c
 }
 
 .btn-end {
   font-size: 4rem;
   padding: 5rem 0;
-<<<<<<< HEAD
   width: 100%;
   text-align: center;
-=======
-  width: 50rem;
-  /* text-align: center; */
->>>>>>> daeb8394b70211f9ab627b6735fb7e0f2ecae99c
   margin-bottom: 1rem;
   text-decoration: none;
   color: rgb(187, 22, 187);
   background: linear-gradient(90deg,rgb(10, 18, 121), rgb(0,10,255),100%);
   border-radius: 4px;
-<<<<<<< HEAD
 }
 
 .fa-home {
@@ -210,6 +188,3 @@ input::placeholder {
 }
 
 
-=======
-}
->>>>>>> daeb8394b70211f9ab627b6735fb7e0f2ecae99c

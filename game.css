@@ -18,14 +18,14 @@ display: block;
     margin-bottom: 0.8rem;
     width: 100%;
     border-radius: 4px;
-    background: rgb(18, 93, 255);
+    background: rgba(196, 21, 231, 0.521);
     font-size: 10rem;
     min-width: 10rem;
 }
 
 .choice-container:hover {
     cursor: pointer;
-    box-shadow: 0 0.4rem 1.4rem 0 rgba(6, 103, 247,0.5);
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(235, 9, 255, 0.24);
     transform: scale(1.02);
     transform: transform 100ms;
 }
@@ -57,30 +57,46 @@ display: block;
 }
 
 .hud-main-text {
-<<<<<<< HEAD
     text-align: center;
     margin-top: 0;
-=======
-    margin-top: 10px;
->>>>>>> daeb8394b70211f9ab627b6735fb7e0f2ecae99c
 }
 
 #progressBar {
     width: 50rem;
     height: 5rem;
-    border: 0.2rem solid rgb(160, 10, 152);
+    border: 0.2rem solid rgb(252, 17, 240);
     margin-top: 5rem;
-    border-radius: 50px;
+    border-radius: 70px;
     overflow: hidden;
 }
 #progressBarFull {
     height: 100%;
-    background: rgb(160, 10, 223);
+    background: rgba(255, 7, 222, 0.541);
     width: 0%;
 }
 
 @media screen and (max-width: 768px) {
     .choice-container {
         min-width: 40rem;
+        font-size: 35px;
+    }
+    body {
+        font-size: 35px;
+    }
+    h1 {
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .choice-container {
+        min-width: 40rem;
+        font-size: 30px;
+    }
+    body {
+        font-size: 20px;
+    }
+    h1 {
+        font-size: 20px;
     }
 }
