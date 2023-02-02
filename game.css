@@ -1,12 +1,5 @@
 body {
     color: #ffff;
-    /* z-index: -1;
-
-    background-image: url(   https://www.manufosela.es/shooting_stars/hori.png), url( https://www.manufosela.es/shooting_stars/stars_5.png);
-    background-repeat: repeat-x, repeat-x repeat-y;
-    transform:translate3D(0em, 0em, 0);
-    animation: stars 21s ease; 
-    transform-style: preserve-3d; */
 }
 
 .choice-container {
@@ -15,8 +8,8 @@ body {
     width: 100%;
     border-radius: 4px;
     background: rgb(18, 93, 255);
-    font-size: 3rem;
-    min-width: 80rem;
+    font-size: 6rem;
+    min-width: 100rem;
 }
 
 .choice-container:hover {
@@ -49,7 +42,7 @@ body {
 
 .hud-prefix {
     text-align: center;
-    font-size: 2rem;
+    font-size: 5rem;
 }
 
 .hud-main-text {
@@ -57,10 +50,10 @@ body {
 }
 
 #progressBar {
-    width: 20rem;
-    height: 3rem;
+    width: 50rem;
+    height: 5rem;
     border: 0.2rem solid rgb(11, 223, 36);
-    margin-top: 2rem;
+    margin-top: 5rem;
     border-radius: 50px;
     overflow: hidden;
 }
