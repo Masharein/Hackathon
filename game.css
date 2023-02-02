@@ -1,6 +1,12 @@
 body {
     color: #ffff;
+    /* z-index: -1;
 
+    background-image: url(   https://www.manufosela.es/shooting_stars/hori.png), url( https://www.manufosela.es/shooting_stars/stars_5.png);
+    background-repeat: repeat-x, repeat-x repeat-y;
+    transform:translate3D(0em, 0em, 0);
+    animation: stars 21s ease; 
+    transform-style: preserve-3d; */
 }
 
 .choice-container {
@@ -58,6 +64,12 @@ body {
     border-radius: 50px;
     overflow: hidden;
 }
+#progressBarFull {
+    height: 100%;
+    background: rgb(11, 223, 36);
+    width: 0%;
+}
+
 @media screen and (max-width: 768px) {
     .choice-container {
         min-width: 40rem;
