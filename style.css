@@ -1,5 +1,5 @@
 :root {
-    background-color: #121212;
+    
 }
 
 * {
@@ -10,10 +10,32 @@
     font-family: 'Fascinate Inline', cursive;
 }
 
+#layout { 
+    color:transparent;
+    height:600px;
+    width:100%;
+    height:100%; 
+  }
+  .stars {
+    z-index: -1;
+    position: absolute;
+    background-image: url(   https://www.manufosela.es/shooting_stars/hori.png), url( https://www.manufosela.es/shooting_stars/stars_5.png);
+    background-repeat: repeat-x, repeat-x repeat-y;
+    transform:translate3D(0em, 0em, 0);
+    animation: stars 21s ease; 
+    transform-style: preserve-3d;
+  }
+
 h1 {
-    font-size: 4rem;
+    font-size: 7rem;
     margin-bottom: 5rem;
-    color: aqua;
+    color: rgb(255, 255, 255);
+    margin: 70px;
+}
+
+h2 {
+    font-size: 4rem;
+    margin-bottom: 4rem;
 }
 
 .container {
@@ -45,19 +67,27 @@ h1 {
 }
 
 .btn {
-    font-size: 3rem;
-    padding: 2rem 0;
-    width: 20rem;
+    font-size: 6rem;
+    padding: 5rem 0;
+    width: 80rem;
     text-align: center;
     margin-bottom: 1rem;
     text-decoration: none;
-    color: rgb(25, 33, 148);
-    background: linear-gradient(90deg,rgb(18,92,255), rgb(0,10,255),100%);
+    color: rgb(187, 22, 187);
+    background: linear-gradient(90deg,rgb(10, 18, 121), rgb(0,10,255),100%);
     border-radius: 4px;
+
 }
 
 .btn:hover {
     cursor: pointer;
     box-shadow: 0 0.4rem 1.4rem 0 rgb(18,92,255);
     transition: transform 150ms;
+    transform: scale(1.03);
+}
+
+.btn[disabled]:hover {
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
 }
