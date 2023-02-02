@@ -46,7 +46,7 @@ body {
 }
 
 .hud-main-text {
-    text-align: center;
+    margin-top: 10px;
 }
 
 #progressBar {
