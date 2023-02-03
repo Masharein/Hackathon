@@ -3,15 +3,12 @@ body {
 }
 
 .container-game {
-display: block;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* max-width: 80rem; */
     margin: 0 auto;
     padding: 2rem;
 }
-
 
 .choice-container {
     display: flex;
@@ -75,7 +72,7 @@ display: block;
     width: 0%;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1280px) {
     .choice-container {
         min-width: 40rem;
         font-size: 35px;
@@ -88,7 +85,7 @@ display: block;
     }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (min-width: 281px) and (max-width: 420px) {
     .choice-container {
         min-width: 40rem;
         font-size: 30px;
@@ -99,4 +96,84 @@ display: block;
     h1 {
         font-size: 20px;
     }
+    #game {
+        width: 350px;
+    }
+    #hud {
+        display: flex;
+        flex-direction: column;
+    }
+
+    div.progress-item {
+        margin-bottom: 100px;
+    }
+    div.score-item {
+        margin-bottom: -50px;
+        margin-top: -20px;
+    }
+    #question {
+        margin: 30px;
+}
+}
+
+
+@media screen and (max-width: 280px){
+    .choice-container {
+        font-size: 30px;
+    }
+    body {
+        font-size: 10px;
+    }
+    h1 {
+        font-size: 20px;
+    }
+    #game {
+        width: 300px;
+    }
+    #hud {
+        display: flex;
+        flex-direction: column;
+    }
+    div.score-item {
+        margin-bottom: -50px;
+    }
+    #progressBar {
+        width: 38rem;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+        margin-left: 8px;
+    }
+   #question {
+        margin: 20px
+}
+}
+
+@media screen and (min-width: 768px) and (max-width: 912px) {
+    .choice-container {
+        min-width: 40rem;
+        font-size: 40px;
+    }
+    #game {
+        width: 800px;
+    }
+    #hud {
+        display: flex;
+        flex-direction: column;
+    }
+
+    div.progress-item {
+        margin-bottom: 100px;
+    }
+    div.score-item {
+        margin-bottom: 30px;
+    } 
+    #question {
+        margin: 30px;
+    }
+    #progressBar {
+        margin-top: 10rem;
+        margin-bottom: 5rem;
+        margin-left: 205px;
+    }
+   
 }
