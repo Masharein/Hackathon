@@ -1,3 +1,16 @@
+window.onload = function() {
+    setTimeout(function() {
+      document.querySelector(".info_box").classList.add("show");
+    }, 1000);
+  };
+  
+  const closeButton = document.querySelector(".quit");
+  
+  closeButton.onclick = function() {
+    document.querySelector(".info_box").classList.remove("show");
+  };
+
+
 const question = document.querySelector('#question');
 const choices = Array.from(document.querySelectorAll('.choice-text'));
 const progressText = document.querySelector('#progressText');

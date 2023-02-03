@@ -128,9 +128,71 @@ h2 {
 
 #highscores-btn:hover {
     color: aqua;
-    box-shadow: 0 0.4rem 1.4rem 0 rgba(255, 255, 0, 0);
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(255, 255, 0, 0.253);
 }
 
+.info_box {
+  display: none;
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #121212;
+  color: rgb(138, 138, 138);
+  font-weight: 500;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  font-family: 'Luckiest Guy', cursive;
+}
+
+.show {
+  display: block;
+}
+
+
+.info_box .info_title {
+  height: 100%;
+  width: 100%;
+  border: 2px solid purple;
+  border-top: 2px solid purple;
+  display: flex;
+  align-items: center;
+  padding: 0 35px;
+  color: #fff;
+  ;
+}
+
+.info_title {
+  font-size: 100px;
+}
+.info {
+  font-size: 30px;
+}
+
+.quit {
+  font-size: 6rem;
+  padding: 6rem 0;
+  width: 50rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  margin: 30px;
+  text-decoration: none;
+  color: rgb(29, 26, 201);
+  background: linear-gradient(90deg,rgb(10, 18, 121), rgb(0,10,255),100%);
+  border-radius: 4px;
+}
+.quit:hover {
+  cursor: pointer;
+  box-shadow: 0 0.4rem 1.4rem 0 rgb(18,92,255);
+  transition: transform 150ms;
+  transform: scale(1.03);
+}
+
+.quit[disabled]:hover {
+  cursor: not-allowed;
+  box-shadow: none;
+  transform: none;
+}
 /* End page style */
 
 .end-form-container {
