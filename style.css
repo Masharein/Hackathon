@@ -145,7 +145,10 @@ h2 {
   font-family: 'Luckiest Guy', cursive;
   -webkit-box-shadow: 0px 0px 21px 14px rgba(75,15,255,0.89); 
   box-shadow: 0px 0px 21px 14px rgba(75,15,255,0.89);
+<<<<<<< HEAD
   margin-top: 50px;
+=======
+>>>>>>> 7ec1e8f4ee2f98f9c3ea07c963d3e0eb4f565b30
 }
 
 .show {
@@ -256,12 +259,15 @@ input::placeholder {
   text-align: center;
 }
 
+<<<<<<< HEAD
 
 @media screen and (min-width: 280px) and (max-width: 539px) {
   .info_box {
     width: 250px;
   }
 
+=======
+>>>>>>> 7ec1e8f4ee2f98f9c3ea07c963d3e0eb4f565b30
   .info_title {
   font-size: 60px;
 }
