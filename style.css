@@ -259,15 +259,11 @@ input::placeholder {
   text-align: center;
 }
 
-<<<<<<< HEAD
-
 @media screen and (min-width: 280px) and (max-width: 539px) {
   .info_box {
     width: 250px;
   }
 
-=======
->>>>>>> 7ec1e8f4ee2f98f9c3ea07c963d3e0eb4f565b30
   .info_title {
   font-size: 60px;
 }
