@@ -2,10 +2,10 @@ body {
     color: azure;
 }
 
-#highScoresList {
+/* #highScoresList {
     list-style: none;
     margin-bottom: 4rem;
-}
+} */
 
 .high-score {
     font-size: 2.8rem;
@@ -14,4 +14,9 @@ body {
 
 h1 {
     font-size: 5rem;
+}
+@media screen and (min-width: 280px) and (max-width: 541px) {
+    .highScoresList {
+        margin-left: 100px;
+    }
 }
