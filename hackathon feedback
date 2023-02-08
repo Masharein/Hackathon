@@ -1,0 +1,7 @@
+JS quiz website.
+There are a few things I really like about this game.
+First of all the styling! Looks like you guys really know your css. I love the rocket in the background, the stars, the planet...
+You displayed your knowlege of the studied material: Dom manipulation, advanced array methods, conditionals.
+Your functions are practical and do what they need to do, I like the usage of localstorage to set the most recent score and highscore; and 
+also initiating an empty array in localstorage if it does not already exist.
+Great project, good job guys!
